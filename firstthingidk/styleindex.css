@@ -1,0 +1,136 @@
+/* stylesheet created for sayashi's website by lena uwu */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    background-color: #4F518C;
+  }
+
+li, a, button, .paragraph1, .projectspage {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+
+body{
+    background-image: url('images/anders-jilden-AkUR27wtaxs-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: stretch;
+}
+
+
+ /*general end*/
+  
+ nav li {
+      float: left;
+  }
+
+ nav a {
+      display: inline-block;
+      padding: 15px;
+      background-color: #4F518C;
+  
+  }
+
+  nav li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  nav li a:hover {
+      background-color: #7679D5;
+  }
+
+  /*nav end*/
+
+  .paragraph1 {
+      font-size: 150%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .paragraph1 em {
+    color:#f4eaffe5;
+    font-size: 75%;
+    text-decoration: none;
+  }
+  .frontcoverphoto {
+      max-width:25%;
+      height:auto;
+      padding: 4%;
+  }
+
+
+  /*index end*/
+
+  .paragraph2 {
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+  .paragraph2 img {
+    height: 50px;
+    width: auto;
+  }
+
+  .links {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+    color: #f4eaffe5;
+  }
+
+
+  .suckmybutt {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .suckmybutt li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*links end*/
+
+  .projectspagesection1 img {
+    width: 50%;
+    margin: auto;
+    display: flex;
+
+  }
+
+  .projectspage {
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*body end*/
+
+  footer {
+    color: #edf0f1cb;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; 
+
+}
